@@ -1,5 +1,4 @@
 .contenedorheader{
-    /*background-color: green;*/
     margin: 0%;
     display: flex;
     flex-direction: row;
@@ -71,8 +70,9 @@
 .categorias h2 {
     font-size: 36px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 30px;
+    color: white;
 }
 
 .izq{
@@ -123,6 +123,7 @@
 .investigación{
     margin: 0%;
     width: 556px;
+    margin-top: 3px;
 }
 
 .catoíd{
@@ -160,6 +161,7 @@
     margin: 0%;
     width: 556px;
     height: 32px;
+    margin-top: 3px;
 }
 
 .flechacat{
@@ -211,6 +213,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .gatohoy h3 {
@@ -232,6 +235,72 @@
     width: 500px;
 }
 
+.propagandalibro {
+    margin-top: 100px;
+    background-color: #FAE2E2;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.imagenlibro {
+    position: absolute;
+    margin-left: 97px;
+    margin-top: -55px;
+}
+
+.libroytexto {
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+
+.tituloyreloj {
+    display: flex;
+    flex-direction: row;
+}
+
+.newcap {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.reloj {
+    margin-top: 37px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reloj p {
+    font-size: 12px;
+}
+
+.reloj img {
+    margin-top: 12.5px;
+    margin-left: 5px;
+    height: 13px;
+}
+
+.cap4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.propagandatexto h3 {
+    font-size: 25px;
+}
+
+.propagandaparrafo {
+    font-size: 20px;
+    width: 500px;
+}
+
+.flechapropaganda {
+    width: 105px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
 .propuesta {
     background-color: #FEF5F5;
     margin-left: 15px;
@@ -251,6 +320,31 @@
     height: 210px;
 }
 
+.terminado{
+    display: flex;
+    flex-direction: column;
+}
+
+.terminado img {
+    padding-left: 120px;
+}
+
+.terminarlibro {
+    margin-top: 90px;
+}
+
+.terminarpodcas {
+    margin-top: 220px;
+}
+
+.terminarexperimentos {
+    margin-top: 160px;
+}
+
+.terminarnotas {
+    margin-top: 85px;
+}
+
 .subtitulo3 h2 {
     font-size: 50px;
     width: 300px;
@@ -263,7 +357,7 @@
 }
 
 section.\33 publicaciones {
-    margin-left: 150px;
+    margin-left: 15px;
     display: flex;
     gap: 50px;
     flex-direction: column;
@@ -275,7 +369,7 @@ section.\33 publicaciones {
     background-color: black;
     width: 980px;
     height: 278px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .fotolibro1 {
@@ -310,7 +404,6 @@ section.\33 publicaciones {
     margin-bottom: -30px;
 }
 
-
 .tiempo1 {
     color: white;
     margin-top: 40px;
@@ -327,7 +420,6 @@ section.\33 publicaciones {
 .textoybarra1 img {
     margin-left: 400px;
     width: 200px;
-    height: 6px;
 }
 
 .barrablancaA {
@@ -345,6 +437,153 @@ section.\33 publicaciones {
     background-color: #EE5D52;
 }
 
+.humanidad {
+    display: flex;
+    flex-direction: row;
+}
+
+.fondo2{
+    width: 980px;
+    height: 278px;
+}
+
+.interior {
+    margin-top: 50px;
+    margin-left: -880px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.relleno2 {
+    background-color: #72E7B6;
+    margin-left: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 694px;
+    height: 215px;
+}
+
+.textos2 {
+    margin-left: 10px;
+}
+
+.textos2 h3 {
+    font-size: 18px;
+}
+
+.textos2 p {
+    font-size: 14px;
+}
+
+.textoybarra2 {
+    margin-left: 10px;
+}
+
+.tiempoytexto2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.tiempo2 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.escuchar {
+    color: #32499A;
+    margin-top: 28px;
+    margin-bottom: -10px;
+    margin-left: 271px;
+    font-size: 18px;
+}
+
+.textoybarra2 img {
+    margin-left: 387px;
+    width: 202px;
+}
+
+.barrablancab {
+    background-color: white;
+    height: 10px;
+    width: 589px;
+    margin-top: 28px;
+    border-radius: 20px;
+}
+
+.barraazul {
+    border-radius: 20px;
+    width: 455px;
+    height: 10px;
+    background-color: #32499A;
+}
+
+.nace {
+    display: flex;
+    flex-direction: row;
+}
+
+.relleno3 {
+    margin-left: 20px;
+}
+
+.textos3 h3 {
+    font-size: 22px;
+}
+
+.textos3 p {
+    width: 300px;
+    font-size: 16px;
+}
+
+.guardadoyflecha {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.vector1 {
+    height: 16.75px;
+}
+
+.guardadoyflecha p {
+    margin: 0;
+}
+
+.flecha6 {
+    margin-top: 60px;
+    margin-left: 225px;
+}
+
+.marcadores {
+    background-color: #F2E9E9;
+    border-radius: 5px;
+    display: flex;
+    width: 980px;
+    height: 93px;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.vector2 {
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.marcadores h3 {
+    font-size: 36px;
+    margin-top: 22px;
+}
+
+.flecha5 {
+    height: 25px;
+    margin-top: 32.5px;
+    margin-left: 480px;
+}
 
 .colaboraciones {
     display: flex;
@@ -357,8 +596,7 @@ section.\33 publicaciones {
     margin-left: 15px;
 }
 
-
-.publbiaciones {
+.publiaciones {
     display: flex;
     margin-left: 100px;
     gap: 20px;
@@ -423,4 +661,148 @@ section.\33 publicaciones {
     margin: 0px;
     width: 350px;
     font-size: 18px;
+}
+
+.gatohoy {
+    margin-bottom: 60px;
+}
+
+.propuesta {
+    background-color: #FEF5F5;
+    margin-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.Sherpas {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fondo3 {
+    width: 100%;
+    height: 649px;
+}
+
+.Sherpastyi {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenSherpas {
+    height: 329px;
+    position: relative;
+    margin-left: -1225px;
+    margin-top: 85px;
+}
+
+.textosSherpas {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.subtitulo4 {
+    font-size: 42px;
+    width: 300px;
+    color: #F95A2E;
+}
+
+.parrafo3 {
+    margin-top: 60px;
+    width: 465px;
+    font-size: 16px;
+}
+
+.escuchar2 {
+    font-size: 18px;
+    color: #F95A2E;
+    margin-top: 115px;
+    margin-left: 540px;
+}
+
+.escuchar2 p {
+    margin-bottom: -12.5px;
+}
+
+.tiendagato {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.imgcontextos {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulo5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.subtitulo5 h2 {
+    font-size: 50px;
+    width: 300px;
+    margin-top: 0;
+}
+
+.visitar {
+    margin-left: 190px;
+}
+
+.visitar p {
+    font-size: 18px;
+    margin-top: 105px;
+    margin-bottom: -10px;
+}
+
+.footer{
+    background-color: #1A1A1A;
+    height: 330px;
+    margin-bottom: 0%;
+}
+
+.partes-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.partes-footer p{
+    font-family: 'Gotham-Book', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.logo2{
+    height: 72px;
+    margin-top: 25px;
+}
+
+.f1{
+    font-size: 16px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f2{
+    font-size: 16px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f1 p {
+    margin: 0;
+}
+
+.f2 p {
+    margin: 0;
 }
