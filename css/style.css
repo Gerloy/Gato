@@ -1,56 +1,89 @@
+*{
+	box-sizing: content-box;
+	white-space: pre-line;
+}
+
+body{
+	margin: 0%;
+}
+
+header{
+	margin: 0%;
+}
+
 .contenedorheader{
-    margin: 0%;
+    height: 6vw;
     display: flex;
-    flex-direction: row;
 }
 
 .menu {
-    margin-left: 15px;
-    height: 20px;
-    width: 30px;
-    margin-top: 23px;
+	margin-left: 4%;
+	margin-top: .5%;
+	height: 40%;
+	width: 4%;
 }
 
-.primerlogo{
-    margin-left: 600px;
-    margin-right: 500px;
+.buscar{
+	margin-top: .5%;
+	margin-left: 60%;
+	background: url(../res/lupita.png) no-repeat;	
+	background-position-x: right;
+	width: 15%;
+	height: 40%;
 }
 
-.iniciarsesión {
-    margin-top: 20px;
-    height: 25px;
-    border-radius: 5px;
-    border: none;
+.usuario{
+	margin-top: .5%;
+	margin-left: 3%;
+	height: 60%;
+	width: 10%;
+	background: url('../res/logo-usuario.png') no-repeat;
+	background-position-x: left;
+}
+
+.text-usuario{
+	margin-top: -11.5%;
+	margin-left: 25%;
+	font-family:gotham-medium;
+	font-size: 1.5vw;
+}
+
+.iniciarsesion {
+	
+	margin-top: 3.25%;
+	height: 40%;
 }
 
 .partesuperior{
     /*background-color: chartreuse;*/
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
 }
 
 .titulo{
     /*background-color: blueviolet;*/
-    width: 350px;
-    font-size: 80px;
-    margin-left: 15px;
-    margin-right: 215px;
-    margin-top: 112px;
-    margin-bottom: 200px;
+    width: 30%;
+    font-family: gotham-bold;
+    font-size: 6vw;
+    margin-left: 4%;
+    margin-top: 5%;
 }
 
 .segundologo{
     /*background-color: blue;*/
-    height: 200px;
-    margin-top: 25px;
+    height: 20vw;
+    margin-top: -5%;
+    margin-left: 38%;
+    position: absolute;
 }
 
-.decoración1{
+.decoracion1{
     /*background-color: aqua;*/
-    width: 340px;
-    height: 150px;
-    margin-left: 200px;
-    margin-top: 170px;
+    width: 40%;
+    height: 4%;
+    margin-left: 22%;
+    margin-top: 8%;
 }
 
 .fondo{
@@ -58,7 +91,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-left: 100px;
+    padding-left: 8%;
 }
 
 .columnas{
@@ -89,79 +122,16 @@
     gap: 15px;
 }
 
-.catnotas{
+.cat{
     border-radius: 5px;
-    background-color: #A56DE6;
     width: 556px;
-    height: 108px;
+    height: 10.75vw;
 }
 
-.notas{
+.img-cat{
     margin: 0%;
     width: 556px;
-}
-
-.catlab{
-    border-radius: 5px;
-    background-color: #68BAE8;
-    width: 556px;
-    height: 108px;
-}
-
-.laboratorio{
-    margin: 0%;
-    width: 556px;
-}
-
-.catinv{
-    border-radius: 5px;
-    background-color: #84C083;
-    width: 556px;
-    height: 99px;
-}
-
-.investigación{
-    margin: 0%;
-    width: 556px;
-    margin-top: 3px;
-}
-
-.catoíd{
-    border-radius: 5px;
-    background-color: #F6A13E;
-    width: 556px;
-    height: 108px;
-}
-
-.oídos{
-    margin: 0%;
-    width: 556px;
-}
-
-.catlibro{
-    border-radius: 5px;
-    background-color: #EE5D52;
-    width: 556px;
-    height: 108px;
-}
-
-.libros{
-    margin: 0%;
-    width: 556px;
-}
-
-.cattienda{
-    border-radius: 5px;
-    background-color: #E274C3;
-    width: 556px;
-    height: 99px;
-}
-
-.tienda{
-    margin: 0%;
-    width: 556px;
-    height: 32px;
-    margin-top: 3px;
+    height: 30.5%;
 }
 
 .flechacat{
@@ -182,15 +152,15 @@
 
 .bajo h2 {
     color: white;
-    margin-right: 95px;
+    margin-top: 3%;
     margin-left: 30px;
     font-size: 35px;
     height: 35px;
-    width: 200px;
+    width: 25%;
 }
 
 .biblioteca {
-    margin-right: 52px;
+    margin-right: 5%;
 }
 
 .flechacat2 {
@@ -200,12 +170,12 @@
 }
 
 .gatohoy {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .gatohoy h2 {
     font-size: 42px;
-    margin-left: 15px;
+    margin-left: 4%;
 }
 
 .fila1 {
@@ -218,6 +188,7 @@
 
 .gatohoy h3 {
     margin: 5px;
+    font-family: gotham-bold;
 }
 
 .gatohoy p {
@@ -236,9 +207,9 @@
 }
 
 .propagandalibro {
-    margin-top: 100px;
     background-color: #FAE2E2;
     display: flex;
+    height: 32.5vw;
     flex-direction: row;
     margin-bottom: 150px;
 }
@@ -261,6 +232,8 @@
 
 .newcap {
     margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: gotham-black;
     font-size: 35px;
 }
 
@@ -272,7 +245,8 @@
 }
 
 .reloj p {
-    font-size: 12px;
+	font-family: gotham-light;
+	font-size: 12px;
 }
 
 .reloj img {
@@ -282,16 +256,21 @@
 }
 
 .cap4 {
-    margin-top: 0;
-    font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-family: gotham-light;
+	font-size: 15px;
 }
 
 .propagandatexto h3 {
-    font-size: 25px;
+ 	margin: 0px;
+	font-size: 25px;
 }
 
 .propagandaparrafo {
-    font-size: 20px;
+	margin-top: 0px;
+    font-size: 16px;
+	font-family: gotham-light;
     width: 500px;
 }
 
@@ -346,8 +325,9 @@
 }
 
 .subtitulo3 h2 {
+	font-family: gotham-black;
     font-size: 50px;
-    width: 300px;
+    width: 400px;
     margin-left: 15px;
 }
 
@@ -363,7 +343,7 @@ section.\33 publicaciones {
     flex-direction: column;
 }
 
-.invención {
+.invencion {
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -374,7 +354,7 @@ section.\33 publicaciones {
 
 .fotolibro1 {
     margin-left: 100px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .relleno1 {
@@ -383,38 +363,52 @@ section.\33 publicaciones {
 }
 
 .textos1 h3 {
+	margin-bottom: 0px;
+	margin-top: 20px;
+	font-family: gotham-bold;
     font-size: 25px;
 }
 
-.textoybarra1 {
-    font-size: 22px;
-    margin-top: 85px;
-    color: #EE5D52;
+.textos1 p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: gotham-light;
+	font-size: 15px;
 }
 
 .textoybarra1 {
+	padding: 0px;
+	margin-top: -10px;
     font-size: 22px;
-    margin-top: 45px;
     color: #EE5D52;
 }
 
 .tiempoytexto1 {
+	padding: 0px;
+	margin: 0px;
     display: flex;
-    flex-direction: row;
-    margin-bottom: -30px;
 }
 
 .tiempo1 {
     color: white;
-    margin-top: 40px;
     font-size: 14px;
+    margin-top: 0px;
     margin-bottom: 0px;
     height: 15px;
 }
 
+.flechatiempo1 {
+	margin-top: 11px;
+	position: absolute;
+	width: 20%;
+}
+
 .lectura {
     height: 20px;
-    margin-left: 310px;
+    font-family: gotham-bold;
+    font-size: 20px;
+    margin-left: 277px;
+    margin-top: -6px;
 }
 
 .textoybarra1 img {
@@ -426,11 +420,11 @@ section.\33 publicaciones {
     background-color: white;
     height: 10px;
     width: 600px;
-    margin-top: 30px;
     border-radius: 20px;
 }
 
 .barranaranja {
+	margin-top: -26px;
     border-radius: 20px;
     width: 465px;
     height: 10px;

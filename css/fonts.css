@@ -1,0 +1,292 @@
+/*inter*/
+.inter-thin {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: thin;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-extralight {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-medium {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-extrabold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.inter-black {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: black;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/*Overpass Mono*/
+.overpass-mono-thin {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: thin;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-extralight {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: light;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-light {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-regular {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-medium {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-semibold {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+
+.overpass-mono-bold {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-extrabold {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.overpass-mono-black {
+    font-family: "Overpass Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: black;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+/*Gotham*/
+@font-face{
+    font-family: "gotham-thin";
+    font-optical-sizing: auto;
+    font-weight: 100;
+    src: local('Gotham-Thin'), url('../res/fonts/gotham/Gotham-Thin.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-thin-italic";
+    font-optical-sizing: auto;
+    font-weight: 100;
+    src: local('Gotham-ThinItalic'), url('../res/fonts/gotham/Gotham-ThinItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-extralight";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    src: local('Gotham-XLight'), url('../res/fonts/gotham/Gotham-XLight.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-extralight-italic";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    src: local('Gotham-XLightItalic'), url('../res/fonts/gotham/Gotham-XLightItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-light";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    src: local('Gotham-Light'), url('../res/fonts/gotham/Gotham-Light.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-light-italic";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    src: local('Gotham-LightItalic'), url('../res/fonts/gotham/Gotham-LightItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-regular";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    src: local('Gotham-Medium'), url('../res/fonts/gotham/Gotham-Medium.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-regular-italic";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    src: local('Gotham-MediumItalic'), url('../res/fonts/gotham/Gotham-MediumItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-medium";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    src: local('Gotham-Medium'), url('../res/fonts/gotham/Gotham-Medium.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-medium-italic";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    src: local('Gotham-MediumItalic'), url('../res/fonts/gotham/Gotham-MediumItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-semibold";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    src: local('Gotham-Bold'), url('../res/fonts/gotham/Gotham-Bold.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-semibold-italic";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    src: local('Gotham-BoldItalic'), url('../res/fonts/gotham/Gotham-BoldItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-bold";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    src: local('Gotham-Bold'), url('../res/fonts/gotham/Gotham-Bold.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-bold-italic";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    src: local('Gotham-BoldItalic'), url('../res/fonts/gotham/Gotham-BoldItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-extrabold";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    src: local('Gotham-Bold'), url('../res/fonts/gotham/Gotham-Bold.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-extrabold-italic";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    src: local('Gotham-BoldItalic'), url('../res/fonts/gotham/Gotham-BoldItalic.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-black";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    src: local('Gotham-Black'), url('../res/fonts/gotham/Gotham-Black.otf'), format('opentype');
+}
+
+@font-face{
+    font-family: "gotham-black-italic";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    src: local('Gotham-BlackItalic'), url('../res/fonts/gotham/Gotham-BlackItalic.otf'), format('opentype');
+}
