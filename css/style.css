@@ -107,6 +107,8 @@ header{
     flex-direction: column;
     gap: 20px;
     padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .columnas{
@@ -127,14 +129,14 @@ header{
     display: flex;
     flex-direction: column;
     /*background-color: brown;*/
-    gap: 15px;
+    gap: 40px;
 }
 
 .der{
     display: flex;
     flex-direction: column;
     /*background-color: pink;*/
-    gap: 15px;
+    gap: 40px;
 }
 
 .cat{
@@ -146,15 +148,15 @@ header{
 .img-cat{
     margin: 0%;
     width: 556px;
-    height: 30.5%;
+    /*height: 30.5%;*/
 }
 
 .flechacat{
-    height: 10px;
-    width: 50px;
+    /*height: 10px;
+    width: 50px;*/
     position: relative;
-    top: -32px;
-    left: 500px;
+    top: -25%;
+    left: 85.96%;
 }
 
 .bajo {
@@ -163,6 +165,7 @@ header{
     flex-direction: row;
     width: 1129px;
     border-radius: 5px;
+    height: 111px;
 }
 
 .bajo h2 {
@@ -344,6 +347,24 @@ header{
     font-size: 50px;
     width: 400px;
     margin-left: 15px;
+}
+
+.naranja {
+    background-color: #ED5D4D;
+    border-bottom-left-radius: 5px;
+}
+
+.naranja h3 {
+    font-family: 'gotham-bold';
+    margin-left: 73%;
+    font-size: 36px;
+    margin-bottom: -30px;
+    margin-top: 0;
+}
+
+.naranja img {
+    margin-bottom: 20px;
+    margin-left: 73%;
 }
 
 .imagenes {
@@ -628,7 +649,7 @@ section.\33 publicaciones {
 }
 
 .botoncolab button {
-    background-color: #68BAE8;
+    background-color: #ED5D4D;
     border: none;
     border-radius: 5px;
     height: 57px;
@@ -735,10 +756,138 @@ section.\33 publicaciones {
     margin-bottom: -12.5px;
 }
 
+.sumar {
+    height: 300px;
+}
+
+.sumar img {
+    width: 100%;
+}
+
+.rellenosumar {
+    display: flex;
+    position: relative;
+    top: -450px;
+    left: 30%;
+    flex-direction: column;
+    width: 500px;
+}
+
+.subtitulo6 {
+    font-family: 'gotham-medium';
+    margin: 0;
+    font-size: 38px;
+    color: white;
+    width: 900px;
+}
+
+.subtitulo7 {
+    font-family: 'gotham-medium';
+    margin-left: 117%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    color: #80FF00;
+}
+
+.textoybotonsumate {
+    display: flex;
+    flex-direction: row;
+}
+
+.textossumate {
+    margin: 0;
+    width: 330px;
+}
+
+.textosumate1 {
+    font-family: 'Overpass Mono';
+    margin: 0;
+    color: white;
+    width: 330px;
+}
+
+.textosumate2 {
+    font-family: 'Overpass Mono';
+    margin: 0;
+    color: white;
+}
+
+.botonsunar {
+    width: 306px;
+    height: 55px;
+    font-size: 18px;
+    font-family: 'gotham-bold';
+    border-radius: 5px;
+    border: none;
+    margin-left: 69%;
+    margin-top: 10%;
+}
+
+.climaS {
+    margin-top: 160px;
+}
+
+.clima {
+    display: flex;
+    flex-direction: row;
+}
+
+.libroclima img {
+    height: 785px;
+    margin-left: -45px;
+}
+
+.sub {
+    margin-top: 120px;
+    margin-left: -100px;
+}
+
+.sub h2 {
+    margin-top: 0;
+    font-family: 'gotham-black';
+    font-size: 50px;
+    width: 600px;
+}
+
+.botondoble {
+    display: flex;
+}
+
+button.botonclima1 {
+    background-color: #8CF2CD;
+    border: none;
+    border-radius: 5px;
+    width: 193px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-family: 'gotham-medium';
+}
+
+.botonclima2 {
+    padding: 0;
+    margin-left: 30.5%;
+    padding-top: 2.5%;
+}
+
+.botonclima2 p {
+    font-size: 18px;
+    font-family: 'gotham-bold';
+    margin: 0%;
+}
+
+.botonclima2 img {
+    margin-top: -1.8%;
+    position: absolute;
+    width: 15.5%;
+}
+
 .tiendagato {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #E6A7D4;
 }
 
 .imgcontextos {
@@ -810,6 +959,11 @@ section.\33 publicaciones {
 
 .f1 p {
     margin: 0;
+}
+
+.f2 p {
+    margin: 0;
+}
 }
 
 .f2 p {
