@@ -1,0 +1,74 @@
+
+.propagandalibro {
+    background-color: #FAE2E2;
+    display: flex;
+    height: 32.5vw;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.imagenlibro {
+    position: absolute;
+    margin-left: 97px;
+    margin-top: -55px;
+}
+
+.libroytexto {
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
+
+.tituloyreloj {
+    display: flex;
+    flex-direction: row;
+}
+
+.newcap {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: gotham-black;
+    font-size: 35px;
+}
+
+.reloj {
+    margin-top: 37px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reloj p {
+	font-family: gotham-light;
+	font-size: 12px;
+}
+
+.reloj img {
+    margin-top: 12.5px;
+    margin-left: 5px;
+    height: 13px;
+}
+
+.cap4 {
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-family: gotham-light;
+	font-size: 15px;
+}
+
+.propagandatexto h3 {
+ 	margin: 0px;
+	font-size: 25px;
+}
+
+.propagandaparrafo {
+	margin-top: 0px;
+    font-size: 16px;
+	font-family: gotham-light;
+    width: 500px;
+}
+
+.flechapropaganda {
+    width: 105px;
+    margin-left: 500px;
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+.tiendagato {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.imgcontextos {
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitulo5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.subtitulo5 h2 {
+    font-size: 50px;
+    width: 300px;
+    margin-top: 0;
+}
+
+.visitar {
+    margin-left: 190px;
+}
+
+.visitar p {
+    font-size: 18px;
+    margin-top: 105px;
+    margin-bottom: -10px;
+}

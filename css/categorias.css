@@ -1,0 +1,83 @@
+.fondo{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 8%;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.categorias h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 30px;
+    color: white;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    /*background-color: brown;*/
+    gap: 15px;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    /*background-color: pink;*/
+    gap: 15px;
+}
+
+.cat{
+    border-radius: 5px;
+    width: 556px;
+    height: 10.75vw;
+}
+
+.img-cat{
+    margin: 0%;
+    width: 556px;
+    height: 30.5%;
+}
+
+.flechacat{
+    height: 10px;
+    width: 50px;
+    position: relative;
+    top: -32px;
+    left: 500px;
+}
+
+.bajo {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 1129px;
+    border-radius: 5px;
+}
+
+.bajo h2 {
+    color: white;
+    margin-top: 2%;
+    margin-left: 30px;
+    font-size: 35px;
+    height: 35px;
+    width: 25%;
+}
+
+.biblioteca {
+    margin-right: 5%;
+}
+
+.flechacat2 {
+    height: 15px;
+    width: 125px;
+    margin-top: 70px;
+    margin-left: 50%;
+}

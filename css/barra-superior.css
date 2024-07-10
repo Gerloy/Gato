@@ -1,0 +1,46 @@
+header{
+	margin: 0%;
+}
+
+.contenedorheader{
+    height: 6vw;
+    display: flex;
+}
+
+.menu {
+	margin-left: 4%;
+	margin-top: .5%;
+	height: 40%;
+	width: 4%;
+}
+
+.buscar{
+	margin-top: .5%;
+	margin-left: 60%;
+	background: url(../res/lupita.png) no-repeat;	
+	background-position-x: right;
+	width: 15%;
+	height: 40%;
+}
+
+.usuario{
+	margin-top: .5%;
+	margin-left: 3%;
+	height: 60%;
+	width: 10%;
+	background: url('../res/logo-usuario.png') no-repeat;
+	background-position-x: left;
+}
+
+.text-usuario{
+	margin-top: -11.5%;
+	margin-left: 25%;
+	font-family:gotham-medium;
+	font-size: 1.5vw;
+}
+
+.iniciarsesion {
+	
+	margin-top: 3.25%;
+	height: 40%;
+}

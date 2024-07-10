@@ -1,0 +1,298 @@
+.propuesta {
+    background-color: #FEF5F5;
+    margin-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.subtitulo3 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    margin-left: 35px;
+}
+
+.subtitulo3 img {
+    margin-top: 40px;
+    height: 210px;
+}
+
+.terminado{
+    display: flex;
+    flex-direction: column;
+}
+
+.terminado img {
+    padding-left: 120px;
+}
+
+.terminarlibro {
+    margin-top: 90px;
+}
+
+.terminarpodcas {
+    margin-top: 220px;
+}
+
+.terminarexperimentos {
+    margin-top: 160px;
+}
+
+.terminarnotas {
+    margin-top: 85px;
+}
+
+.subtitulo3 h2 {
+	font-family: gotham-black;
+    font-size: 50px;
+    width: 400px;
+    margin-left: 15px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+}
+
+section.\33 publicaciones {
+    margin-left: 15px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.invencion {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 980px;
+    height: 278px;
+    border-radius: 5px;
+}
+
+.fotolibro1 {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.relleno1 {
+    color: white;
+    margin-left: 25px;
+}
+
+.textos1 h3 {
+	margin-bottom: 0px;
+	margin-top: 20px;
+	font-family: gotham-bold;
+    font-size: 25px;
+}
+
+.textos1 p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: gotham-light;
+	font-size: 15px;
+}
+
+.textoybarra1 {
+	padding: 0px;
+	margin-top: -10px;
+    font-size: 22px;
+    color: #EE5D52;
+}
+
+.tiempoytexto1 {
+	padding: 0px;
+	margin: 0px;
+    display: flex;
+}
+
+.tiempo1 {
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 15px;
+}
+
+.flechatiempo1 {
+	margin-top: 11px;
+	position: absolute;
+	width: 20%;
+}
+
+.lectura {
+    height: 20px;
+    font-family: gotham-bold;
+    font-size: 20px;
+    margin-left: 277px;
+    margin-top: -6px;
+}
+
+.textoybarra1 img {
+    margin-left: 400px;
+    width: 200px;
+}
+
+.barrablancaA {
+    background-color: white;
+    height: 10px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.barranaranja {
+	margin-top: -26px;
+    border-radius: 20px;
+    width: 465px;
+    height: 10px;
+    background-color: #EE5D52;
+}
+
+.humanidad {
+    display: flex;
+    flex-direction: row;
+}
+
+.fondo2{
+    width: 980px;
+    height: 278px;
+}
+
+.interior {
+    margin-top: 50px;
+    margin-left: -880px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.relleno2 {
+    background-color: #72E7B6;
+    margin-left: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 694px;
+    height: 215px;
+}
+
+.textos2 {
+    margin-left: 10px;
+}
+
+.textos2 h3 {
+    font-size: 18px;
+}
+
+.textos2 p {
+    font-size: 14px;
+}
+
+.textoybarra2 {
+    margin-left: 10px;
+}
+
+.tiempoytexto2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.tiempo2 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.escuchar {
+    color: #32499A;
+    margin-top: 28px;
+    margin-bottom: -10px;
+    margin-left: 271px;
+    font-size: 18px;
+}
+
+.textoybarra2 img {
+    margin-left: 387px;
+    width: 202px;
+}
+
+.barrablancab {
+    background-color: white;
+    height: 10px;
+    width: 589px;
+    margin-top: 28px;
+    border-radius: 20px;
+}
+
+.barraazul {
+    border-radius: 20px;
+    width: 455px;
+    height: 10px;
+    background-color: #32499A;
+}
+
+.nace {
+    display: flex;
+    flex-direction: row;
+}
+
+.relleno3 {
+    margin-left: 20px;
+}
+
+.textos3 h3 {
+    font-size: 22px;
+}
+
+.textos3 p {
+    width: 300px;
+    font-size: 16px;
+}
+
+.guardadoyflecha {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.vector1 {
+    height: 16.75px;
+}
+
+.guardadoyflecha p {
+    margin: 0;
+}
+
+.flecha6 {
+    margin-top: 60px;
+    margin-left: 225px;
+}
+
+.marcadores {
+    background-color: #F2E9E9;
+    border-radius: 5px;
+    display: flex;
+    width: 980px;
+    height: 93px;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.vector2 {
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.marcadores h3 {
+    font-size: 36px;
+    margin-top: 22px;
+}
+
+.flecha5 {
+    height: 25px;
+    margin-top: 32.5px;
+    margin-left: 480px;
+}

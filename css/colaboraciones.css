@@ -1,0 +1,77 @@
+.colaboraciones {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.subtitulo2 {
+    font-size: 42px;
+    margin-left: 15px;
+}
+
+.publiaciones {
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.modelo {
+    display: flex;
+    flex-direction: row;
+}
+
+.trespublicaciones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.parrafo2 {
+    width: 300px;
+}
+
+.botoncolab button {
+    background-color: #68BAE8;
+    border: none;
+    border-radius: 5px;
+    height: 57px;
+    width: 384px;
+    font-size: 24px;
+    color: white;
+    margin-left: 472.5px;
+}
+
+.textosA {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.textosA h2 {
+    margin: 0px;
+    font-size: 42px;
+    width: 300px;
+}
+
+.textosB {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textosB h3 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.parrafo1 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.parrafo2 {
+    margin: 0px;
+    width: 350px;
+    font-size: 18px;
+}

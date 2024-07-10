@@ -1,0 +1,36 @@
+.gatohoy {
+    margin-bottom: 0px;
+}
+
+.gatohoy h2 {
+    font-size: 42px;
+    margin-left: 4%;
+}
+
+.fila1 {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.gatohoy h3 {
+    margin: 5px;
+    font-family: gotham-bold;
+}
+
+.gatohoy p {
+    margin: 5px;
+}
+
+.fila2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.fila2 p {
+    width: 500px;
+}
