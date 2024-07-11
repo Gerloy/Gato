@@ -1,0 +1,75 @@
+.mail-gato{
+	height: 30vw;
+	background-color: #000000;
+	display: flex;
+	margin-bottom: 10%;
+}
+
+.mira-mama{
+	height: 80%;
+	margin-top: 3.5%; 
+	margin-left: 3%;
+}
+
+.mail-gato h3{
+	font-family: gotham-black;
+	color: #FFFFFF;
+	font-size: 300%;
+	margin-top: 7%;
+	margin-left: 5%;
+	width: 25%;
+}
+
+.form{
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.form p{
+	margin-top: 2vw;
+	font-size: 90%;
+	font-family: gotham-light;
+	color: #FFFFFF;
+}
+
+.mail{
+	font-size: 1vw !important;
+	color: #68BAE8 !important;
+}
+
+.form input[type=email]{
+	width: 77%;
+	background-color: #000000;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #FFFFFF;
+	font-family: gotham-bold;
+	font-size: 150%;
+	border-bottom:100% medium #FFFFFF;
+}
+
+.form input[type=email]:focus{
+	font-family: gotham-regular;
+	outline: none;
+	color: #68BAE8;
+	border-color: #68BAE8;
+}
+
+.form button {
+    background-color: #68BAE8;
+    font-family: gotham-regular;
+    border: none;
+    border-radius: 5px;
+    height: 57px;
+    width: 384px;
+    font-size: 120%;
+    color: white;
+    margin-left: 40%;
+    margin-top: 5vw;
+}
+
+.form button:hover{
+	background-color: #000000;
+}

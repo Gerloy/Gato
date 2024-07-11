@@ -45,6 +45,18 @@
     color: white;
 }
 
+.cat p{
+    font-size: 1vw;
+    font-family: gotham-regular;
+    color: #FFFFFF;
+    position: absolute;
+    width: 30%;
+    background: url('../res/ciruclito-cat.png') no-repeat;
+    text-indent: 4%;
+    margin-left: 30%;
+    margin-top: -5%;
+}
+
 .cat-inf{
     border-radius: 5px;
     width: 556px;

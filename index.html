@@ -22,12 +22,17 @@
     <link rel="stylesheet" href="css/sumar.css">
     <link rel="stylesheet" href="css/tiendagato.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="stylesheet" href="css/clima-newsletter.css">
+    <link rel="stylesheet" href="css/mail-gato.css">
 </head>
 <body>
     <header> 
         <div class="contenedorheader">
             <img src="res/Group 1.png" class="menu">
-	    <div class="buscar"></div>
+	    <div class="buscar" id="buscar">
+            <p>Buscar</p>
+        </div>
 	    <div class="usuario">
 		<p class="text-usuario">Laura</p>
 	    </div>
@@ -61,6 +66,7 @@
                 <section class="der">
                     <section class="cat" style="background: url('res/cat-podcast.png') no-repeat; background-size: contain; background-position-y: bottom; background-color: #F6A13E; --color-hover: #C55C10">
                         <h2 class="inter-bold">Gato en tus oidos</h2>
+                        <p>Nuevos episodios</p>
                         <img src="res/flecha-blanca.png" alt="" class="flechacat">
                     </section>
                     <section class="cat" style="background: url('res/cat-libros.png') no-repeat; background-size: contain; background-position-y: bottom; background-color: #EE5D52; --color-hover: #9D1F15">
@@ -129,7 +135,7 @@
                     <h2 class="newcap">Nuevo Capitulo subido</h2>
                     <div class="reloj">
                         <p>45min.</p>
-                        <img src="res/Reloj.png" alt="">
+                        <img src="res/reloj-azul.png" alt="">
                     </div>
                 </div>
             </div>
@@ -234,7 +240,78 @@
         </section>
     </section> 
     
-    <section class="carrusel"></section>
+    <section class="carrusel" id="seccion-carrusel">
+	    <div class="container-cards" id="carrusel">
+		    <div class="card">
+		    	<img src="/res/card1-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>El día que prendieron la luz</h3>
+		    		<p>Una historia de los nuevos medios digitales en Argentina a través de sus comunidades.</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card2-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>El gran búfalo</h3>
+		    		<p>¿Qué tienen en común la Inteligencia Artificial, Vaca Muerta y el arado?</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card3-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>Gato: la historia completa, incompleta</h3>
+		    		<p>La vida se vive hacia adelante pero se comprende acia atrás.</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card4-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>Acerca de trazar una línea</h3>
+		    		<p>Sobre las Elecciones Generales - Octubre 2023</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card5-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>El rescate más austral</h3>
+		    		<p>¿Cómo fue el rescate del ARA General Belgrano? Una crónica a través del testimonio de uno de los protagonistas del rescate más austral de la historia marítima.</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card6-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>Alfajor clandestino</h3>
+		    		<p>¿El etiquetado frontal sirve o es menospreciar a los consumidores? ¿Qué´hay más allá de los sellos?</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card7-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>El día que esté aburrido</h3>
+		    		<p>¿Cómo cambió la forma en la que la televisión argentina muestra la homosexualidad y la transexualidad en los últimos treinta años?¿Quién fue Carlos Jáuregui?</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card8-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>Oíd mortales</h3>
+		    		<p>¿Quién es el artista más ifluyente de la música en español de Spotify? ¿Cómo lo medimos?.</p>
+		    	</div>
+		    </div>
+		    <div class="card">
+		    	<img src="/res/card9-img.png" alt="">
+		    	<div class="textos-card">
+		    		<h3>Los censos quesupimos conseguir</h3>
+		    		<p>¿Cómo fueros los censos argentinos a lo largo de la historia? ¿Cuál es la diferencia entre cretino, imbécil, estúpido y opa?</p>
+		    	</div>
+		    </div>
+	    </div>
+        <div class="inferior-carrusel">
+            <img src="res/cirulitos-carrusel.png" class="circulitos">
+            <img src="res/flecha-iz.png" class="flecha-carrusel">
+            <img src="res/flecha-de.png" class="flecha-carrusel">
+        </div>
+    </section>
     
     <section class="colaboraciones">
         <section class="subtitulo2">
@@ -300,7 +377,20 @@
     <section class="sumar">
         <img src="res/image 126.png" alt="">
     </section>
-    
+   
+	<section class="clima-newsletter">
+		<img src="res/clima-news-img.png" class="clima-img" alt="">
+		<h2>NEWSLETTER CLIMA</h2>
+		<p>Recibí un newsletter mensual del proyecto clima.</p>
+        <p class="mail-clima-arriba" id="mail-clima-arriba">Mail</p>
+		<input type="email" class="mail-clima" id="mail-clima">
+		<p>Podés desuscribirte en cuaquier momento usando el link en nuestros emails.</p>
+		<div class="botones-clima">
+			<button class="boton-clima">Suscribirme</button>
+			<p>Leer los anteriores</p>
+		</div>
+	</section>
+
     <section class="tiendagato">
         <div class="imgcontextos">
             <img src="res/image 133.png" alt="">
@@ -315,6 +405,17 @@
         </div>
     </section>
     
+	<section class="mail-gato">
+		<img src="res/mira-mama-img.png" class="mira-mama" alt="">
+		<h3> Recibí gato en tu email</h3>
+		<div class="form" id="form">
+			<p class="mail" id="mail-final-arriba">Email</p>
+			<input type="email" id="mail-final" >
+			<p>Podés desuscribirte en cualquier momento usando el link en nuestros emails.</p>
+			<button class="confirm-mail">Quiero recibir gato en mi email</button>
+		</div>
+	</section>
+
     <footer>
         <div class="footer">
 
@@ -342,5 +443,8 @@
         </div>
     </footer> 
 </body>
+<script src="js/buscar.js"></script>
+<script src="js/carrusel.js"></script>
+<script src="js/mail.js"></script>
 </html>
 

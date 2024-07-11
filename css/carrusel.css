@@ -1,0 +1,60 @@
+.carrusel{
+	margin-top: 5%;
+	background-color: #FFFFFF;
+	height: 50vw;
+}
+
+.container-cards{
+	display: flex;
+	flex-wrap: nowrap;
+	user-select: none;
+	overflow: hidden;
+	left: 0;
+	height: 80%;
+	width: 100%;
+}
+
+.card{
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	flex-shrink: 0;
+}
+
+.card img{
+	width: 50vw;
+	height: 100%;
+	margin: 0px;
+	pointer-events: none;
+	border-radius: 1%;
+}
+
+.card h3{
+	font-family: gotham-bold;
+	color: #000000;
+	font-size: 250%;
+	margin-left: 15%;
+	margin-top: 30%;
+	width: 70%;
+}
+
+.card p{
+	font-family: gotham-light;
+	margin-left: 15%;
+	width: 70%;
+}
+
+.inferior-carrusel{
+	display: flex;
+}
+
+.circulitos{
+	margin-top: 2vw;
+	margin-left: 12.5%;
+	margin-right: 14%;
+}
+
+.flecha-carrusel{
+	margin-top: 2vw;
+	margin-left: 2%;
+}

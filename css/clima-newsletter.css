@@ -1,0 +1,91 @@
+.clima-newsletter{
+	height: 80vw;
+	background-color: #FFFFFF;
+	margin-bottom: 10vw;
+}
+
+.clima-img{
+	width: 40%;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+.clima-newsletter h2{
+	font-family: gotham-bold;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.clima-newsletter h3{
+	font-family: gotham-light;
+	font-size: 150%;
+	margin-left: 30%;
+	margin-top: 2%;
+}
+
+.clima-newsletter p{
+	font-family: gotham-light;
+	font-size: 120%;
+	width: 45%;
+	margin-left: 30%;
+}
+
+.mail-clima{
+	width: 40%;
+	background-color: #FFFFFF;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #000000;
+	font-family: gotham-light;
+	font-size: 150%;
+	border-bottom:100% medium #000000;
+	margin-left: 30%;
+	
+	margin-bottom: 1.5%;
+}
+
+.mail-clima:focus{
+	font-family: gotham-light;
+	outline: none;
+	color: #68BAE8;
+	border-color: #68BAE8;
+}
+
+.mail-clima-arriba{
+	margin-top: 1.5%;
+	font-size: 1vw !important;
+	color: #68BAE8;
+}
+
+.botones-clima{
+	display: flex;
+	width: 100%;
+}
+
+.clima-newsletter button {
+    background-color: #68BAE8;
+    font-family: gotham-regular;
+    border: none;
+    border-radius: 5px;
+    height: 57px;
+    width: 25%;
+    font-size: 120%;
+    color: white;
+    margin-left: 30%;
+    margin-top: 5vw;
+}
+
+.clima-newsletter button:hover{
+	background-color: #000000;
+}
+
+.botones-clima p{
+	font-family: gotham-bold;
+	font-size: 100%;
+	margin-top: 7.5vw;
+	background: url('../res/flecha-negra-larga.png') no-repeat;
+	background-size: 47.5%;
+	background-position-y: 1vw;
+}
