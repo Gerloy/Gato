@@ -16,6 +16,7 @@
 }
 
 .subtitulo5 h2 {
+	font-family: gotham-bold;
     font-size: 50px;
     width: 300px;
     margin-top: 0;
@@ -26,6 +27,7 @@
 }
 
 .visitar p {
+	font-family: gotham-bold;
     font-size: 18px;
     margin-top: 105px;
     margin-bottom: -10px;

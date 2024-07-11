@@ -9,13 +9,13 @@ header{
 
 .menu {
 	margin-left: 4%;
-	margin-top: .5%;
+	margin-top: 3%;
 	height: 40%;
 	width: 4%;
 }
 
 .buscar{
-	margin-top: .5%;
+	margin-top: 3%;
 	margin-left: 60%;
 	background: url(../res/lupita.png) no-repeat;	
 	background-position-x: right;
@@ -24,7 +24,7 @@ header{
 }
 
 .usuario{
-	margin-top: .5%;
+	margin-top: 3%;
 	margin-left: 3%;
 	height: 60%;
 	width: 10%;
@@ -33,7 +33,7 @@ header{
 }
 
 .text-usuario{
-	margin-top: -11.5%;
+	margin-top: 3%;
 	margin-left: 25%;
 	font-family:gotham-medium;
 	font-size: 1.5vw;

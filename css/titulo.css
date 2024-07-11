@@ -2,11 +2,12 @@
     /*background-color: chartreuse;*/
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .titulo{
     /*background-color: blueviolet;*/
+    white-space: pre-line;
     width: 30%;
     font-family: gotham-bold;
     font-size: 6vw;

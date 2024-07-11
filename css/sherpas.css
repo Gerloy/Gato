@@ -13,6 +13,7 @@
 .Sherpastyi {
     display: flex;
     flex-direction: row;
+    margin-top: 3%;
 }
 
 .imagenSherpas {
@@ -28,14 +29,18 @@
 }
 
 .subtitulo4 {
+	font-family: gotham-bold;
     font-size: 42px;
     width: 300px;
     color: #F95A2E;
+    white-space: pre-line;
+    width: 50%;
 }
 
 .parrafo3 {
+	font-family: gotham-light;
     margin-top: 60px;
-    width: 465px;
+    width: 50vw;
     font-size: 16px;
 }
 
@@ -44,8 +49,24 @@
     color: #F95A2E;
     margin-top: 115px;
     margin-left: 540px;
+    width: 35%;
+    height: 3vw;
+	background: url('../res/flecha-naranja.png') no-repeat;
+	background-position-x: 55%;
+	background-position-y: 60%;
 }
 
 .escuchar2 p {
-    margin-bottom: -12.5px;
+	font-family: gotham-bold;
+	width: 100%;
+	margin-bottom: -12.5px;
+	text-align: center;
+}
+
+.escuchar2:hover{
+	
+	background: url('../res/flecha-negra-larga.png') no-repeat;
+	background-position-x: 65%;
+	background-position-y: 60%;
+	color: #000000;
 }

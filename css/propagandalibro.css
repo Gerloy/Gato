@@ -1,10 +1,10 @@
-
 .propagandalibro {
     background-color: #FAE2E2;
     display: flex;
-    height: 32.5vw;
+    height: 30vw;
     flex-direction: row;
     margin-bottom: 150px;
+    margin-top: 10%;
 }
 
 .imagenlibro {
@@ -27,7 +27,7 @@
     margin-top: 30px;
     margin-bottom: 0px;
     font-family: gotham-black;
-    font-size: 35px;
+    font-size: 250%;
 }
 
 .reloj {
@@ -49,26 +49,30 @@
 }
 
 .cap4 {
-	margin-top: 0;
-	margin-bottom: 0px;
+	margin-top: 3%;
 	font-family: gotham-light;
 	font-size: 15px;
 }
 
 .propagandatexto h3 {
- 	margin: 0px;
+	margin-top: 3%;
 	font-size: 25px;
 }
 
 .propagandaparrafo {
 	margin-top: 0px;
-    font-size: 16px;
+	white-space: pre-line;
+	font-size: 16px;
 	font-family: gotham-light;
-    width: 500px;
+	width: 100%;
 }
 
 .flechapropaganda {
     width: 105px;
     margin-left: 500px;
-    margin-top: 20px;
+    margin-top: 7.5%;
+}
+
+.flechapropaganda:hover{
+	transform: scaleX(0.5);
 }

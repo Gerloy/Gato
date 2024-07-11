@@ -1,36 +1,66 @@
 .gatohoy {
+	margin-top: 7.5%;
     margin-bottom: 0px;
 }
 
 .gatohoy h2 {
     font-size: 42px;
     margin-left: 4%;
+    margin-bottom: 6%;
 }
 
 .fila1 {
-    margin-left: 100px;
+    margin-left: 8%;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .gatohoy h3 {
-    margin: 5px;
+    margin-top: 5%;
     font-family: gotham-bold;
+}
+
+.art1 h3{
+	margin-left: 5%;
+}
+
+.art2 h3{
+	margin-left: 20%;
+}
+
+.art2 p{
+	margin-left: 16% !important;
 }
 
 .gatohoy p {
     margin: 5px;
 }
 
+.flecha-gatohoy{
+	position: relative;	
+	width: 1.75%;
+	top: -30%;
+	height: 20%;
+}
+
+.flecha-gatohoy2{
+	position: relative;	
+	width: 1.75%;
+	top: -30%;
+	left: 15%;
+	height: 20%;
+}
+
 .fila2 {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-left: 100px;
+    margin-left: 8%;
 }
 
 .fila2 p {
     width: 500px;
+    white-space: pre-line;
 }
